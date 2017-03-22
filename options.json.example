@@ -1,0 +1,11 @@
+{
+	"host":"",
+	"user":"",
+	"pass":"",
+	"port":0,
+	"ignore":[
+		"information_schema",
+		"mysql",
+		"performance_schema"
+	]
+}

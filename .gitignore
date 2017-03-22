@@ -1,0 +1,4 @@
+*.sql
+*.log
+options.json
+!.ignore
