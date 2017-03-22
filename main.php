@@ -13,6 +13,6 @@
 	log_define();
 	backup($options);
 	clean();
-	
-	echo_log("Done");
+
+	echo_log("Finished");
 ?>
