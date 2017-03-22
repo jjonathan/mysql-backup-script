@@ -6,6 +6,6 @@ Php script to make a backup of all databases
 ## Instruction:
 
 * Make a copy of [options.json.example](./options.json.example) and rename  to `options.json`;
-* Put your configurations inside options.json;
+* Put your configurations inside `options.json`;
 * Add (or not) the databases you don't wanna make backup in `ignore` options inside your `options.json`;
 * In your terminal run: `php main.php`.
