@@ -1,4 +1,5 @@
 *.sql
 *.log
+*.sh
 options.json
 !.ignore
