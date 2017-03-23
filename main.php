@@ -12,7 +12,8 @@
 
 	log_define();
 	backup($options);
-	clean();
+	if($options->days_keep !=== null)
+		clean($days);
 
 	echo_log("Finished");
 ?>

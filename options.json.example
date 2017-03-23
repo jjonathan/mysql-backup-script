@@ -7,5 +7,6 @@
 		"information_schema",
 		"mysql",
 		"performance_schema"
-	]
+	],
+	"days_keep":null
 }

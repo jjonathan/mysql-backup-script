@@ -1,7 +1,7 @@
 <?php 
 
-function clean(){
-	$mask = date('Y-m-d', strtotime('-60 days'))."*";
+function clean($days){
+	$mask = date('Y-m-d', strtotime("-$days days"))."*";
 
 	$files = getFiles($mask);
 
